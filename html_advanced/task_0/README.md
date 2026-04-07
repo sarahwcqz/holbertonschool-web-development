@@ -22,4 +22,4 @@ For this first project, we will focus on the HTML structure only - no CSS, no st
 Here is a view of the webpage to be created.
 
 
-![view of website](Page.png)
+![view of website](../images/Page.png)
