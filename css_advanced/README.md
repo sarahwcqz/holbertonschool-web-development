@@ -19,4 +19,4 @@
 Here is a view of the webpage to be created.
 
 
-![view of website](../../html_advanced/images/Page.png)
+![view of website](../html_advanced/images/Page.png)
