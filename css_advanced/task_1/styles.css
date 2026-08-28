@@ -1,0 +1,36 @@
+:root {
+    --color-purple: #c271ff;
+    --color-navy: #071629;
+    --container: 1110px;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+    width: var(--container);
+    margin: 35px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 167px;
+}
+
+header nav {
+    display: flex;
+    gap: 52px;
+}
+
+header nav a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
