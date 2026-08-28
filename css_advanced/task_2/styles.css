@@ -19,16 +19,19 @@ header {
     padding-top: 35px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 header img {
+    display: block;
     width: 167px;
 }
 
 header nav {
+    width: 234px;
+    margin-top: 2px;
     display: flex;
-    gap: 52px;
+    justify-content: space-between;
 }
 
 header nav a {
@@ -62,7 +65,7 @@ main > section:first-child > div:first-child p {
 
 main > section:first-child button {
     margin-top: 38px;
-    padding: 13px 20px;
+    padding: 13px 21px;
     border: none;
     border-radius: 22px;
     background-color: var(--color-purple);
@@ -97,6 +100,7 @@ main > section:first-child h2 + div > div {
 }
 
 main > section:first-child img {
+    display: block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
