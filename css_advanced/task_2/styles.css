@@ -1,0 +1,120 @@
+:root {
+    --color-purple: #c271ff;
+    --color-navy: #071629;
+    --container: 1110px;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    background-image: url("../images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+header {
+    width: var(--container);
+    margin: 0 auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 167px;
+}
+
+header nav {
+    display: flex;
+    gap: 52px;
+}
+
+header nav a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* ---------- hero : "Get schooled" + "Learn from the pros" ---------- */
+
+main > section:first-child {
+    padding: 155px 0 98px;
+    color: #fff;
+    text-align: center;
+}
+
+main > section:first-child h1 {
+    margin: 0;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 141px;
+}
+
+main > section:first-child > div:first-child p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    word-spacing: 55px;
+}
+
+main > section:first-child button {
+    margin-top: 38px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 22px;
+    background-color: var(--color-purple);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+main > section:first-child h2 {
+    margin: 168px 0 0;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+main > section:first-child h2 span {
+    color: var(--color-purple);
+    font-weight: 700;
+}
+
+main > section:first-child h2 + div {
+    width: 1009px;
+    margin: 87px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main > section:first-child h2 + div > div {
+    width: 150px;
+}
+
+main > section:first-child img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main > section:first-child h3 {
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+main > section:first-child h3 + p {
+    margin: 2px 0 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+
