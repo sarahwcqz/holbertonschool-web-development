@@ -1,0 +1,11 @@
+/* Use nested declarations */
+$color: #3D3D3D;
+$background: #6D6D6D;
+
+body {
+    margin: 0;
+    padding: 0;
+    p {
+        margin: 10px;
+    }
+}
