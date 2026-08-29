@@ -1,3 +1,51 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-300.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-400.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: italic;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-600.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/source-sans-pro-900.woff2") format("woff2");
+}
+
 :root {
     --color-purple: #c271ff;
     --color-navy: #071629;
@@ -12,11 +60,12 @@ body {
             rgba(41, 48, 61, 0) 0%,
             rgba(7, 22, 41, 1) 100%),
         linear-gradient(#000, #000),
-        url("../images/background.png");
-    background-blend-mode: normal, color, normal;
+        url("../images/background.png"),
+        linear-gradient(var(--color-navy), var(--color-navy));
+    background-blend-mode: normal, color, normal, normal;
     background-repeat: no-repeat;
-    background-position: top center, 50% -66px, 50% -66px;
-    background-size: 100% 1093px, 1448px 1055px, 1448px 1055px;
+    background-position: top center, 50% -66px, 50% -66px, top center;
+    background-size: 100% 1093px, 1448px 1055px, 1448px 1055px, 100% 1093px;
 }
 
 header {
